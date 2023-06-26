@@ -1,0 +1,51 @@
+.navbar {
+  color: var(--neutral-white, #fff);
+  /* P/Medium/Semibold */
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  letter-spacing: 0.005rem;
+  text-transform: uppercase;
+
+  display: flex;
+  padding: 1.5rem 5rem;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    #ffb800 0%,
+    #ff7a00 35.94%,
+    #5200ff 99.48%
+  );
+}
+
+.navbarCircle {
+  width: 125rem;
+  height: 125rem;
+  flex-shrink: 0;
+  border-radius: 2000px;
+  background: linear-gradient(
+    90deg,
+    #ffb800 0%,
+    #ff7a00 35.94%,
+    #5200ff 99.48%
+  );
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.buttonList {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 100px;
+}
+
+.button {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.5rem;
+}
